@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
+ 
+
+:root{
+    --primary-color: #000015;
+    --light-gray:#2b3032a1;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"sofia",cursive;
+}
+.primary-color{
+    color:var(--primary-color);
+}
+
+.nav{
+    background-color:var(--primary-color)!important;
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+    
+}
+.nav-link{
+    font-family: 'Pacifico', cursive;
+    font-size:200%;
+}
+
+
+.text-color{
+    color: var(--text-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    
+}
+
+header.site-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-inner > .carousel-item > img{
+    width: 500px;
+    height: 360px;
+}
+
+.text-muted{
+    font-size:150%;
+    font-family: 'Roboto', cursive;
+}
